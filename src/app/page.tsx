@@ -104,7 +104,7 @@ export default function HomePage() {
               <div className="inline-block bg-primary-50 text-primary-700 text-sm font-semibold px-4 py-1.5 rounded-full mb-4">
                 Our Programs
               </div>
-              <h2 className="section-title">Six World-Class Departments</h2>
+              <h2 className="section-title">Six Departments</h2>
               <p className="section-subtitle mx-auto text-center mt-4">
                 Industry-aligned curriculum with expert faculty and cutting-edge laboratories.
               </p>
@@ -147,7 +147,7 @@ export default function HomePage() {
             <Reveal delay={100}>
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { label: "Highest Package", display: "12 LPA" },
+                  { label: "Highest Package", display: "4 LPA" },
                   { label: "Average Package", display: "3.5 LPA" },
                   { label: "Students Placed (2025-26)", val: 515, sfx: "+" },
                   { label: "Companies (2025-26)", val: 13, sfx: "+" },

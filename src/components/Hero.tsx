@@ -5,7 +5,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowRight, TrendingUp } from "lucide-react";
 import { siteConfig } from "@/lib/utils";
-
+import { User } from "lucide-react";
 const heroImages = [
   "/images/MPTC1.jpeg",
   "/images/MPTC2.jpeg",
@@ -82,13 +82,19 @@ export default function Hero() {
             </Link>
             <Link
               href="/placement/statistics"
-              className="border border-gold-400/50 text-gold-300 px-7 py-3.5 rounded-lg font-semibold hover:bg-gold-400/10 transition-all inline-flex items-center gap-2"
+              className="border border-gold-400/50 text-red-500 px-7 py-3.5 rounded-lg font-semibold hover:bg-gold-400/10 transition-all inline-flex items-center gap-2"
             >
               <TrendingUp size={16} /> Placement Statistics
             </Link>
             <Link
+              href="/register"
+              className="border border-red-500/50 text-green-500 px-7 py-3.5 rounded-lg font-semibold hover:bg-red-500/10 transition-all inline-flex items-center gap-2"
+            >
+              <User size={16} /> Register for Spot Admission
+            </Link>
+            <Link
               href="/contact"
-              className="text-white/90 px-7 py-3.5 rounded-lg font-semibold hover:text-gold-400 transition-all inline-flex items-center gap-2 underline-offset-4 hover:underline"
+              className="border border-gold-400/50 text-violet-500 px-7 py-3.5 rounded-lg font-semibold hover:bg-gold-400/10 transition-all inline-flex items-center gap-2"
             >
               Contact Us
             </Link>
