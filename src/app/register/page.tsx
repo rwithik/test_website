@@ -12,10 +12,14 @@ const [percentage, setPercentage] = useState("");
 const [dob, setDob] = useState("");
 const handleSubmit = async (e: React.FormEvent) => {
   e.preventDefault();
-
+  const {
+    data: { session },
+  } = await supabase.auth.getSession();
+  
+  console.log("SESSION:", session);
   console.log("Form submitted");
 
-  const { data, error } = await supabase
+  const { error } = await supabase
   .from("admissions")
   .insert([
     {
@@ -27,9 +31,7 @@ const handleSubmit = async (e: React.FormEvent) => {
       percentage,
       dob,
     },
-  ])
-  .select();
-
+  ]);
 
         
   
@@ -80,20 +82,23 @@ const handleSubmit = async (e: React.FormEvent) => {
   value={phone}
   onChange={(e) => setPhone(e.target.value)}
   className="border p-2 w-full"
+  pattern="[0-9]{10}"
+  maxLength={10}
   required
 />
-         <div>
+ <div>
   <label className="block mb-2">
     Date of Birth
   </label>
 
   <input
-    type="date"
-    value={dob}
-    onChange={(e) => setDob(e.target.value)}
-    className="w-full border rounded-lg p-3"
-    required
-  />
+  type="date"
+  value={dob}
+  onChange={(e) => setDob(e.target.value)}
+  className="w-full border rounded-lg p-3"
+  max={new Date().toISOString().split("T")[0]}
+  required
+/>
 </div>
          <div>
           <label className="block mb-2">
@@ -129,13 +134,16 @@ const handleSubmit = async (e: React.FormEvent) => {
          </label>
 
          <input
-           type="number"
-           value={percentage}
-           onChange={(e) => setPercentage(e.target.value)}
-           placeholder="Enter Percentage"
-           className="w-full border rounded-lg p-3"
-           required
-         />
+  type="number"
+  value={percentage}
+  onChange={(e) => setPercentage(e.target.value)}
+  placeholder="Enter Percentage"
+  className="w-full border rounded-lg p-3"
+  min="0"
+  max="100"
+  step="0.01"
+  required
+/>
          </div>
 
         <select
