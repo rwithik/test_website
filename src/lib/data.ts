@@ -316,14 +316,21 @@ export const testimonials = [
 ];
 
 export const galleryImages = [
-  { src: "/images/MPTC1.jpeg", title: "Campus Building", category: "campus" },
-  { src: "/images/MPTC2.jpeg", title: "College Front View", category: "campus" },
-  { src: "/images/MPTC3.jpeg", title: "Campus Aerial View", category: "campus" },
-  { src: "/images/brochure.jpeg", title: "Admission Brochure", category: "events" },
-  { src: "https://mptkarunagappally.ihrd.ac.in/images/WhatsApp-Image-2023-06-14-at-10.28.52-AM.jpeg", title: "Campus Event", category: "events" },
-  { src: "https://mptkarunagappally.ihrd.ac.in/images/edugreev.jpg", title: "EduGreev Program", category: "events" },
-];
-
+  { src: "/images/college.jpeg", title: "Campus Building", category: "campus" },
+  { src: "/images/ARTS1.jpeg", title: "College Arts day", category: "campus" },
+  { src: "/images/ARTS2.jpeg", title: "College Arts day", category: "campus" },
+  { src: "/images/ARTS3.jpeg", title: "College Arts day", category: "events" },
+  { src: "/images/ARTS4.jpeg", title: "College Arts day", category: "campus" },
+  { src: "/images/artsceleb.jpeg", title: "College Arts day", category: "events" },
+  { src: "/images/badminton.jpeg", title: "Badminton State Runner up", category: "campus" },
+  { src: "/images/butterfly.jpeg", title: "Onam celebrations", category: "events" },
+  { src: "/images/chenda.jpeg", title: "Students performance", category: "campus" },
+  { src: "/images/dance.jpeg", title: "Student's performance", category: "events" },
+  { src: "/images/IOCC1.jpeg", title: "IOC Inauguration", category: "campus" },
+  { src: "/images/NSS1.jpeg", title: "Student's NSS", category: "events" },
+  { src: "/images/Workshop1.jpeg", title: "Technical Workshop", category: "campus" },
+  { src: "/images/staffceleb.jpeg", title: "Xmas celebrations", category: "events" },
+]; 
 export const categoryColors: Record<string, string> = {
   admission: "bg-green-100 text-green-700",
   placement: "bg-blue-100 text-blue-700",
