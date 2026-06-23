@@ -197,15 +197,15 @@ export const stats = [
 export const whyChoose = [
   {
     title: "Excellent Placement Records",
-    description: "100% placement rate with 130+ companies visiting campus annually.",
+    description: "MPTC has established a strong reputation for successful campus placements through its active industry collaborations and dedicated placement support. Leading companies from diverse sectors regularly participate in recruitment drives, providing students with excellent career opportunities. The institution consistently achieves impressive placement outcomes, helping students secure rewarding positions in reputed organizations across India and abroad.100% placement rate for last 3 years and students were got chances to participate 170+ recruitment drives in 2025-26 academic year.",
   },
   {
-    title: "Highly Qualified Faculty",
-    description: "Experienced faculty with industry and academic expertise across all departments.",
+    title: "Well experienced & Qualified Faculty",
+    description: "Our faculty members are experienced educators and subject experts committed to academic excellence and student success. Through innovative teaching methodologies, continuous mentoring, and industry-oriented guidance, they help students develop strong technical knowledge, professional skills, and problem-solving abilities. The faculty's dedication creates a supportive learning environment that encourages innovation and lifelong learning.ienced faculty with industry and academic expertise across all departments.",
   },
   {
     title: "Modern Laboratories",
-    description: "State-of-the-art labs with industry-grade equipment and software tools.",
+    description: "MPTC provides state-of-the-art laboratories equipped with modern instruments, software tools, and industry-standard equipment. These facilities enable students to gain extensive hands-on experience and practical exposure in their respective disciplines. The laboratories are continuously upgraded to align with emerging technologies and industry requirements, ensuring that students are well-prepared for professional challenges.",
   },
   {
     title: "Industry Collaboration & Industry On Campus(IOC)",
@@ -213,11 +213,11 @@ export const whyChoose = [
   },
   {
     title: "Government Controlled Institution",
-    description: "IHRD-managed, DTE Kerala affiliated, and AICTE approved polytechnic college.",
+    description: "As a Government-controlled institution, MPTC upholds the highest standards of transparency, quality, and academic integrity. Students benefit from affordable education, recognized qualifications, experienced faculty, and a structured learning environment governed by established educational policies and regulations. The institution is committed to providing accessible and quality technical education to all sections of society.IHRD-managed, DTE Kerala affiliated, and This institution is approved by AICTE and affiliated to State Board  of Technical Education, Kerala. The Model Polytechnic College Karunagappally is managed by the Institute of Human Resources Development(IHRD).",
   },
   {
     title: "Excellent Academic Results",
-    description: "Consistently strong board examination results since establishment in 1997.",
+    description: "MPTC consistently achieves outstanding academic performance, reflecting the institution's commitment to quality education and student achievement. Through effective teaching, continuous assessment, academic support programs, and a disciplined learning environment, students regularly secure excellent examination results and university ranks. The strong academic foundation developed at MPTC prepares graduates for higher studies and successful professional careers.Consistently strong board examination results since establishment in 1997.",
   },
 ];
 
@@ -248,7 +248,7 @@ export const events = [
   {
     id: 2,
     title: "Campus Placement Drive 2025-26",
-    description: "130+ companies conducted campus drive. 515 placement offers received by final year students.",
+    description: "170+ companies conducted campus drive. 515 placement offers received by final year students.",
     category: "placement",
     date: "2026-04-10",
   },
@@ -264,7 +264,7 @@ export const events = [
     title: "TechFest 2026 — Annual Technical Festival",
     description: "3 days of innovation, competitions, workshops, and cultural events.",
     category: "technical_fest",
-    date: "2026-09-20",
+    date: "2025-09-20",
   },
   {
     id: 5,
@@ -273,45 +273,45 @@ export const events = [
     category: "workshop",
     date: "2025-08-05",
   },
-  {
-    id: 6,
-    title: "Board Examination Notification",
-    description: "DTE Kerala diploma examination schedule and guidelines for all semesters.",
-    category: "examination",
-    date: "2025-11-01",
-  },
+ 
 ];
 
 export const testimonials = [
   {
-    name: "Arun Kumar",
+    name: "Jaydeep",
     department: "Computer Engineering",
-    batch: 2022,
-    content: "MPTC gave me the technical foundation that helped me land my dream job at Infosys. The faculty are incredibly supportive.",
+    batch: 2026,
+    content: "MPTC gave me the technical foundation that helped me land my dream job at Experion Technologies. The faculty are incredibly supportive.",
   },
   {
-    name: "Priya Nair",
+    name: " ",
     department: "Electronics & Communication",
-    batch: 2023,
-    content: "The ECE labs are world-class. Hands-on IoT experience directly helped my placement at KELTRON.",
+    batch: 2025,
+    content: "The ECE labs are world-class. Hands-on IoT experience directly helped my placement at Centum Electronics.",
   },
   {
     name: "Mohammed Asif",
     department: "Mechanical Engineering",
-    batch: 2022,
+    batch: 2025,
     content: "CAD/CAM lab and workshop facilities are excellent. Placement cell was proactive — placed at an automotive firm.",
   },
   {
-    name: "Sneha Suresh",
-    department: "CST",
-    batch: 2023,
-    content: "Learning modern IT skills at MPTC was transformative. Faculty encouraged real projects.",
+    name: "Keerthi Subhash",
+    department: "Electronics Engineering",
+    batch: 2025,
+    content: "Learning modern skills at MPTC was transformative. Faculty encouraged to do real projects which helped me to get placed in SFO Technologies.",
+  },
+  {
+    name: "Ashique",
+    department: "Computer Science & Technology",
+    batch: 2025,
+    content: "Plenty of opportunities to get acquinted with modern technologies in MPTC campus during my studies helped me to get a very good placement in an overseas company.",
   },
   {
     name: "Rahul Menon",
     department: "Electrical & Electronics",
-    batch: 2021,
-    content: "Power systems lab and industrial training prepared me thoroughly. KSEB recruited me from campus.",
+    batch: 2025,
+    content: "Power systems lab and industrial training prepared me thoroughly. Schnieder Electric recruited me from campus.",
   },
 ];
 
@@ -492,17 +492,17 @@ export const pageContents: Record<string, PageContent> = {
       "MPTC Karunagappally maintains an outstanding placement record with consistent year-on-year growth.",
     ],
     bullets: [
-      "Overall Placement Rate: 95%+",
+      "Overall Placement Rate: 100%",
       "Highest Package: ₹4LPA",
       "Average Package: ₹2.5 LPA",
       "515 offers in 2025-26 campus drive",
-      "130 companies in latest drive",
+      "170 companies in latest drive",
     ],
   },
   "/placement/recruiters": {
     title: "Our Recruiters",
     content: [
-      "Leading companies from IT, manufacturing, power, and public sector regularly recruit from MPTC campus.",
+      "Leading companies from IT, electronics,manufacturing,Automobile, power and public sector regularly recruit from MPTC campus.",
     ],
   },
   "/placement/success-stories": {

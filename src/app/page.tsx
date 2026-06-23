@@ -72,7 +72,7 @@ export default function HomePage() {
               <div className="inline-block bg-primary-50 text-primary-700 text-sm font-semibold px-4 py-1.5 rounded-full mb-4">
                 Why Choose Us
               </div>
-              <h2 className="section-title">Why Choose MPTC?</h2>
+              <h2 className="section-title">Why Choose MPTC Karunagappally?</h2>
               <p className="section-subtitle mx-auto text-center mt-4">
                 Rigorous academics with real-world industry exposure for job-ready engineers.
               </p>
