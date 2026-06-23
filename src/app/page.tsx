@@ -1,5 +1,5 @@
 "use client";
-
+import NewsTicker from "@/components/NewsTicker";
 import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
@@ -46,7 +46,8 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-
+      <NewsTicker />
+     
       {/* Stats */}
       <section className="bg-primary-500 py-10">
         <div className="max-w-7xl mx-auto px-4">
@@ -178,30 +179,7 @@ export default function HomePage() {
       </section>
 
       {/* News & Events */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4">
-          <Reveal>
-            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-12">
-              <div>
-                <div className="inline-block bg-primary-50 text-primary-700 text-sm font-semibold px-4 py-1.5 rounded-full mb-3">
-                  Stay Updated
-                </div>
-                <h2 className="section-title">Latest News & Events</h2>
-              </div>
-              <Link href="/gallery" className="btn-outline text-sm py-2.5 px-5">
-                View All <ArrowRight size={14} />
-              </Link>
-            </div>
-          </Reveal>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {events.map((item, i) => (
-              <Reveal key={item.id} delay={i * 70}>
-                <EventCard {...item} />
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
+     
 
       {/* Testimonials */}
       <section className="py-20 bg-gradient-to-br from-primary-50 to-slate-50">

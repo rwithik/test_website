@@ -39,7 +39,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${poppins.variable}`}>
-      <body className="antialiased">
+      <body className="antialiased bg-sky-50">
         <Navbar />
         <main>{children}</main>
         <Footer />
