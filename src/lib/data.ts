@@ -316,20 +316,16 @@ export const testimonials = [
 ];
 
 export const galleryImages = [
-  { src: "/images/college.jpeg", title: "Campus Building", category: "campus" },
-  { src: "/images/ARTS1.jpeg", title: "College Arts day", category: "campus" },
-  { src: "/images/ARTS2.jpeg", title: "College Arts day", category: "campus" },
-  { src: "/images/ARTS3.jpeg", title: "College Arts day", category: "events" },
-  { src: "/images/ARTS4.jpeg", title: "College Arts day", category: "campus" },
-  { src: "/images/artsceleb.jpeg", title: "College Arts day", category: "events" },
-  { src: "/images/badminton.jpeg", title: "Badminton State Runner up", category: "campus" },
-  { src: "/images/butterfly.jpeg", title: "Onam celebrations", category: "events" },
-  { src: "/images/chenda.jpeg", title: "Students performance", category: "campus" },
-  { src: "/images/dance.jpeg", title: "Student's performance", category: "events" },
-  { src: "/images/IOCC1.jpeg", title: "IOC Inauguration", category: "campus" },
-  { src: "/images/NSS1.jpeg", title: "Student's NSS", category: "events" },
-  { src: "/images/Workshop1.jpeg", title: "Technical Workshop", category: "campus" },
-  { src: "/images/staffceleb.jpeg", title: "Xmas celebrations", category: "events" },
+  { src: "/images/PMD1.jpg", title: "Computers Assembled By the Students", category: "PMD" },
+  { src: "/images/artsstage.jpg", title: "College Arts day", category: "events" },
+  { src: "/images/badminton.jpg", title: "Badminton State Runner up", category: "sports" },
+  { src: "/images/butterfly.jpg", title: "Onam celebrations", category: "events" },
+  { src: "/images/chenda.jpg", title: "Student's performance", category: "campus" },
+  { src: "/images/dance.jpg", title: "Student's performance", category: "campus" },
+  { src: "/images/IOCC1.jpg", title: "IOC Inauguration", category: "IOC" },
+  { src: "/images/NSS1.jpg", title: "Student's NSS", category: "NSS" },
+  { src: "/images/Workshop1.jpg", title: "Technical Workshop", category: "Technical" },
+  { src: "/images/staffceleb.jpg", title: "Xmas celebrations", category: "events" },
 ]; 
 export const categoryColors: Record<string, string> = {
   admission: "bg-green-100 text-green-700",
