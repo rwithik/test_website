@@ -196,37 +196,37 @@ export const stats = [
 
 export const whyChoose = [
   {
-    title: "Excellent Placement Records",
-    description: "MPTC has established a strong reputation for successful campus placements through its active industry collaborations and dedicated placement support. Leading companies from diverse sectors regularly participate in recruitment drives, providing students with excellent career opportunities. The institution consistently achieves impressive placement outcomes, helping students secure rewarding positions in reputed organizations across India and abroad.100% placement rate for last 3 years and students were got chances to participate 170+ recruitment drives in 2025-26 academic year.",
+    title: "100% Placement Records",
+    description: "MPTC has established a strong reputation for successful campus placements through its active industry collaborations and dedicated placement support. Leading companies from diverse sectors regularly participate in recruitment drives, providing 100% placement rate for last 3 years.The studentsfrom this college participated in 170+ recruitment drives in 2025-26 academic year.",
   },
   {
     title: "Well experienced & Qualified Faculty",
-    description: "Our faculty members are experienced educators and subject experts committed to academic excellence and student success. Through innovative teaching methodologies, continuous mentoring, and industry-oriented guidance, they help students develop strong technical knowledge, professional skills, and problem-solving abilities. The faculty's dedication creates a supportive learning environment that encourages innovation and lifelong learning.ienced faculty with industry and academic expertise across all departments.",
+    description: "Our faculty members are experienced educators and subject experts committed to academic excellence and student success. Through innovative teaching methodologies, continuous mentoring, and industry-oriented guidance, they help students develop strong technical knowledge, professional skills, and problem-solving abilities.",
   },
   {
     title: "Modern Laboratories",
-    description: "MPTC provides state-of-the-art laboratories equipped with modern instruments, software tools, and industry-standard equipment. These facilities enable students to gain extensive hands-on experience and practical exposure in their respective disciplines. The laboratories are continuously upgraded to align with emerging technologies and industry requirements, ensuring that students are well-prepared for professional challenges.",
+    description: "MPTC provides state-of-the-art laboratories equipped with modern instruments, software tools, and industry-standard equipment. These facilities enable students to gain extensive hands-on experience and practical exposure in their respective disciplines.",
   },
   {
     title: "Industry Collaboration & Industry On Campus(IOC)",
-    description: "Active MoUs with leading companies for internships, training, and placements.Our campus hosts two Industry on Campus (IOC) units that provide students with valuable hands-on industrial experience. One unit focuses on the production of voltage stabilizers and inverters, while the other specializes in software development. Students from various departments actively participate in these units and gain exposure to real-world industrial practices. This practical training enhances their technical skills and industry readiness, ensuring they graduate with meaningful professional experience.",
+    description: "Active MoUs with leading companies for internships, training, and placements.Our campus hosts two Industry on Campus (IOC) units that provide students with valuable hands-on industrial experience. One unit focuses on the production of voltage stabilizers and inverters, while the other specializes in software development. Students from various departments actively participate in these units and gain exposure to real-world industrial practices.readiness,",
   },
   {
     title: "Government Controlled Institution",
-    description: "As a Government-controlled institution, MPTC upholds the highest standards of transparency, quality, and academic integrity. Students benefit from affordable education, recognized qualifications, experienced faculty, and a structured learning environment governed by established educational policies and regulations. The institution is committed to providing accessible and quality technical education to all sections of society.IHRD-managed, DTE Kerala affiliated, and This institution is approved by AICTE and affiliated to State Board  of Technical Education, Kerala. The Model Polytechnic College Karunagappally is managed by the Institute of Human Resources Development(IHRD).",
+    description: "As a Government-controlled institution, MPTC upholds the highest standards of transparency, quality, and academic integrity. Students benefit from affordable education, recognized qualifications, experienced faculty, and a structured learning environment governed by established educational policies and regulations. The institution is committed to providing accessible and quality technical education to all sections of society.",
   },
   {
     title: "Excellent Academic Results",
-    description: "MPTC consistently achieves outstanding academic performance, reflecting the institution's commitment to quality education and student achievement. Through effective teaching, continuous assessment, academic support programs, and a disciplined learning environment, students regularly secure excellent examination results and university ranks. The strong academic foundation developed at MPTC prepares graduates for higher studies and successful professional careers.Consistently strong board examination results since establishment in 1997.",
+    description: "MPTC consistently achieves outstanding academic performance, reflecting the institution's commitment to quality education and student achievement. Through effective teaching, continuous assessment, academic support programs, and a disciplined learning environment, students regularly secure excellent examination results and university ranks.",
   },
 ];
 
 export const placementStats = [
-  { year: "2021-22", placed: 180, companies: 3 },
-  { year: "2022-23", placed: 195, companies: 4 },
-  { year: "2023-24", placed: 210, companies: 4},
-  { year: "2024-25", placed: 225, companies: 10 },
-  { year: "2025-26", placed: 515, companies: 13 },
+  { year: "2021-22", placed: 180, companies: 13 },
+  { year: "2022-23", placed: 195, companies: 24 },
+  { year: "2023-24", placed: 210, companies: 35},
+  { year: "2024-25", placed: 225, companies: 65 },
+  { year: "2025-26", placed: 515, companies: 170 },
 ];
 
 export const recruiters = [
@@ -370,16 +370,16 @@ export const pageContents: Record<string, PageContent> = {
       "Our state-of-the-art laboratories, experienced faculty, and strong industry connections ensure every student receives holistic education.",
     ],
   },
-  "/about/governing-body": {
-    title: "Governing Body",
+  "/about/academic council": {
+    title: "Academic Council",
     content: [
       "Model Polytechnic College Karunagappally functions under the governance of IHRD (Institute of Human Resource Development), Government of Kerala.",
       "The college is affiliated to the Directorate of Technical Education (DTE), Kerala and approved by AICTE.",
     ],
     bullets: [
-      "Director, IHRD — Chairman",
-      "Principal — Member Secretary",
-      "Heads of Departments — Members",
+      "Principal— Chairman",
+      "Head of the Departments — Members",
+      "Office Superintentend — Member",
       "Representatives from Industry and Alumni",
     ],
   },
@@ -391,7 +391,7 @@ export const pageContents: Record<string, PageContent> = {
     bullets: [
       "100% placement rate for consecutive years",
       "515 placement offers in 2025-26 campus drive",
-      "13 companies visited campus in 2025-26",
+      "23 companies visited campus in 2025-26",
       "Consistently above-average board exam results",
       "Active participation in state-level technical fests",
       "NSS and cultural award-winning programs",
@@ -401,6 +401,7 @@ export const pageContents: Record<string, PageContent> = {
     title: "Eligibility Criteria",
     content: [
       "Candidates must have passed SSLC/Equivalent examination from a recognized board.",
+      "For LED admissions,the candidates must have passed PLUS TWO Science/Computer/Equivalent or 2 year ITI ",
       "Age limit and other criteria as prescribed by DTE Kerala for polytechnic admissions.",
     ],
     bullets: [
@@ -450,12 +451,7 @@ export const pageContents: Record<string, PageContent> = {
       "Complete admission formalities at college",
     ],
   },
-  "/admissions/prospectus": {
-    title: "Download Prospectus",
-    content: [
-      "Download the official admission brochure for detailed information about courses, facilities, and admission procedures.",
-    ],
-  },
+  
   "/academics/curriculum": {
     title: "Curriculum",
     content: [
@@ -469,8 +465,8 @@ export const pageContents: Record<string, PageContent> = {
       "Academic year follows the odd/even semester pattern as prescribed by DTE Kerala.",
     ],
     bullets: [
-      "Odd Semester: July – December",
-      "Even Semester: January – June",
+      "Odd Semester: June – November",
+      "Even Semester: December – March",
       "Industrial Training: Final year students",
       "Board Examinations: As per DTE schedule",
     ],

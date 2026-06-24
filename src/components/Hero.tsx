@@ -7,9 +7,9 @@ import { ArrowRight, TrendingUp } from "lucide-react";
 import { siteConfig } from "@/lib/utils";
 import { User } from "lucide-react";
 const heroImages = [
-  "/images/MPTC1.jpeg",
-  "/images/MPTC2.jpeg",
-  "/images/MPTC3.jpeg",
+  "/images/college.jpg",
+  //"/images/MPTC2.jpeg",
+  //"/images/MPTC3.jpeg",
 ];
 
 export default function Hero() {
