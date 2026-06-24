@@ -370,7 +370,7 @@ export const pageContents: Record<string, PageContent> = {
       "Our state-of-the-art laboratories, experienced faculty, and strong industry connections ensure every student receives holistic education.",
     ],
   },
-  "/about/academic council": {
+  "/about/governing-body": {
     title: "Academic Council",
     content: [
       "Model Polytechnic College Karunagappally functions under the governance of IHRD (Institute of Human Resource Development), Government of Kerala.",

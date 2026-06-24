@@ -8,8 +8,8 @@ import { siteConfig } from "@/lib/utils";
 import { User } from "lucide-react";
 const heroImages = [
   "/images/college.jpg",
-  //"/images/MPTC2.jpeg",
-  //"/images/MPTC3.jpeg",
+  "/images/college.jpg",
+  "/images/college.jpg",
 ];
 
 export default function Hero() {
