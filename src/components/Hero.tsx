@@ -72,7 +72,7 @@ export default function Hero() {
     className="object-contain"
   />
 </div>
-  <h1 className="font-poppins font-bold text-white text-2xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight">
+  <h1 className="font-poppins font-bold text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight">
     Model Polytechnic College
     <span className="block text-gold-400">
       Karunagappally
