@@ -8,7 +8,7 @@ import { siteConfig } from "@/lib/utils";
 import { User } from "lucide-react";
 const heroImages = [
   "/images/college.jpg",
-  "/images/college.jpg",
+  "/images/colimg.jpeg",
   "/images/college.jpg",
 ];
 
@@ -61,10 +61,23 @@ export default function Hero() {
             Established {siteConfig.established} · Government Controlled Polytechnic · IHRD Kerala
           </div>
 
-          <h1 className="font-poppins font-bold text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight mb-4">
-            Model Polytechnic College
-            <span className="block text-gold-400">Karunagappally</span>
-          </h1>
+          <div className="flex items-center gap-6 mb-4">
+          
+  <Image
+    src="/images/colimg.jpeg"
+    alt="College Emblem"
+    width={140}
+    height={140}
+    className="object-contain"
+  />
+
+  <h1 className="font-poppins font-bold text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight">
+    Model Polytechnic College
+    <span className="block text-gold-400">
+      Karunagappally
+    </span>
+  </h1>
+</div>
 
           <p className="text-primary-100 text-lg md:text-xl mb-8 max-w-xl">
             {siteConfig.tagline}

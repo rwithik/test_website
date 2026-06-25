@@ -40,7 +40,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-16 md:h-[4.5rem]">
             <Link href="/" className="flex items-center gap-3 shrink-0">
               <div className="w-10 h-10 md:w-12 md:h-12 rounded-full overflow-hidden border-2 border-gold-400">
-                <Image src="/images/MPTC1.jpeg" alt="MPTC Logo" width={48} height={48} className="object-cover w-full h-full" />
+                <Image src="/images/eleimg.jpeg" alt="MPTC Logo" width={48} height={48} className="object-cover w-full h-full" />
               </div>
               <div className="hidden sm:block">
                 <div className="font-poppins font-bold text-primary-900 text-sm md:text-base leading-tight">
