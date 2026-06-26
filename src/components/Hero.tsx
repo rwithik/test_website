@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { ArrowRight, TrendingUp } from "lucide-react";
+//import { ArrowRight, TrendingUp } from "lucide-react";
 import { siteConfig } from "@/lib/utils";
 import { User } from "lucide-react";
 const heroImages = [
@@ -85,8 +85,8 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-wrap gap-4">
-            <Link href="/admissions" className="btn-gold text-base py-3.5 px-7">
-              Apply Now <ArrowRight size={18} />
+            <Link href="/admissions" className="btn-gold text-base py-3.5 px-3">
+              Apply Now 
             </Link>
             <Link
               href="/departments"
@@ -98,7 +98,7 @@ export default function Hero() {
               href="/placement/statistics"
               className="border border-gold-400/50 text-red-500 px-7 py-3.5 rounded-lg font-semibold hover:bg-gold-400/10 transition-all inline-flex items-center gap-2"
             >
-              <TrendingUp size={16} /> Placement Statistics
+              Placement Statistics
             </Link>
             <Link
               href="/register"

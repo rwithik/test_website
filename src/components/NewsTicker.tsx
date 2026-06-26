@@ -20,12 +20,13 @@ export default function NewsTicker() {
   }
 
   return (
-    <div className="bg-red-600 text-white overflow-hidden py-3">
-      <div className="flex whitespace-nowrap animate-marquee">
+    //<div className="bg-red-600 text-white overflow-hidden py-3">
+    <div className="group overflow-hidden">
+      <div className="flex animate-marquee whitespace-nowrap group-hover:[animation-play-state:paused]">
         {news.map((item) => (
           <span
             key={item.id}
-            className="mx-10 font-medium"
+            className="mx-10 font-semibold text-red-500"
           >
             📢 {item.title}
           </span>
