@@ -124,7 +124,7 @@ export const departments: Department[] = [
     color: "from-blue-600 to-blue-800",
     image: "/images/ctimg.jpg",
     description:
-      "Focuses on Computer softwares, Artificial Intelligence, Machine Learning,Cloud Computingand system administration with hands-on lab training aligned to industry standards.",
+      "Focuses on Computer softwares, Artificial Intelligence, Machine Learning,Cloud Computing and system administration .The curriculum imparts theoretical and practical dimensions of computing — from algorithms and data structures to database management and web technologies. Students gain hands-on experience with modern programming languages and tools, building skills relevant to software engineering, data analytics, and emerging tech domains. 3-Year Diploma · AICTE Approved",
     //hod: "Head of Department, CT",
       hod: "Manoj G",
       hodPhone: "+91 9961481828",
@@ -132,19 +132,19 @@ export const departments: Department[] = [
       faculty: [
         {
           name: "Jayalekshmi V",
-          phone: "+91 9876543211",
+          phone: "+91 9745226201",
         },
         {
           name: "Femina H",
-          phone: "+91 9876543212",
+          phone: "+91 9747664731",
         },
         {
           name: "Vishnu Babu",
-          phone: "+91 9876543213",
+          phone: "+91 9633449667",
         },
         {
           name: "Sreejith",
-          phone: "+91 9876543214",
+          phone: "+91 9544649904",
         },
       ],
       established: "2021",
@@ -157,22 +157,22 @@ export const departments: Department[] = [
     color: "from-cyan-600 to-cyan-800",
     image: "/images/cstimg.jpg",
     description:
-      "Covers hardware, databases, web technologies, and emerging IT skills for modern tech careers.",
+      "Equips students with a solid foundation in computer hardware, software systems and network infrastructure. The curriculum spans programming, IoT Systems, Cloud Computing and embedded systems — preparing graduates for roles in System development, hardware design, and IT support across industries.3-Year Diploma · AICTE Approved",
       hod: "Muhammad Nijam B",
-      hodPhone: "+91 9961481828",
+      hodPhone: "+91 9400071307",
 
       faculty: [
         {
           name: "Nisha .O",
-          phone: "+91 9876543211",
+          phone: "+91 7012307234",
         },
         {
           name: "Jinumol",
-          phone: "+91 9876543212",
+          phone: "+91 7902636250",
         },
         {
           name: "Rejeena",
-          phone: "+91 9876543213",
+          phone: "+91 12343546",
         },
         {
           name: "Athira",
@@ -189,7 +189,7 @@ export const departments: Department[] = [
     color: "from-indigo-600 to-indigo-800",
     image: "/images/ecimg.jpg",
     description:
-      "Training in communication systems, embedded electronics, IoT, and signal processing with advanced lab facilities.",
+      "Bridges electronics and communication systems, offering training in areas such as wireless networks, optical fibre, satellite communication,  embedded electronics, IoT and signal processing. Graduates are well-positioned for careers in telecom, broadcasting, defence electronics, and the rapidly growing IoT and 5G sectors.3-Year Diploma · AICTE Approved",
       hod: "Lunamma Joseph",
       hodPhone: "+91 9961481828",
 
@@ -218,7 +218,7 @@ export const departments: Department[] = [
     color: "from-violet-600 to-violet-800",
     image: "/images/elimg.jpg",
     description:
-      "Specialized program in electronic circuits, PCB design, instrumentation, and industrial automation systems.",
+      "Covers the fundamentals of electronic circuits, devices, and systems — including analog and digital electronics,microcontrollers,consumer electronics,mobile communication and industrial automation. Students develop strong technical skills applicable in in electronic circuits, PCB design, instrumentation, and industrial automation systems . 3-Year Diploma · AICTE Approved.",
       hod: "Rajesh",
       hodPhone: "+91 9961481828",
 
@@ -243,9 +243,9 @@ export const departments: Department[] = [
     color: "from-amber-600 to-amber-800",
     image: "/images/eeeimg.jpg",
     description:
-      "Comprehensive training in power systems, electrical machines, control systems, and renewable energy technologies.",
+      "Provides comprehensive training in electrical machines, power systems, control engineering, and industrial electronics. Students learn to design, operate, and maintain electrical installations and power distribution systems — with growing relevance in renewable energy, electric vehicles, and smart grid technologies.3-Year Diploma · AICTE Aproved",
       hod: "Mahija M",
-      hodPhone: "+91 9961481828",
+      hodPhone: "+91 9447522147",
 
       faculty: [
         {
@@ -265,25 +265,25 @@ export const departments: Department[] = [
     color: "from-orange-600 to-orange-800",
     image: "/images/meimg.jpg",
     description:
-      "CAD/CAM, manufacturing processes, thermal engineering, and workshop practice for mechanical industry readiness.",
-      hod: "Sundaresan",
-      hodPhone: "+91 9961481828",
+      "One of the most versatile engineering disciplines, covering thermodynamics, manufacturing processes, machine design, fluid mechanics, and CAD/CAM. The department prepares students for a wide range of opportunities — from production and maintenance engineering to quality control and advanced manufacturing.3-Year Diploma · AICTE Approved",
+      hod: "Sundaresan V L",
+      hodPhone: "+91 9496627998",
 
       faculty: [
         {
-          name: "Jayalekshmi V",
+          name: "Lect1 V",
           phone: "+91 9876543211",
         },
         {
-          name: "Femina H",
+          name: "Lect2 H",
           phone: "+91 9876543212",
         },
         {
-          name: "Vishnu Babu",
+          name: "Lect3",
           phone: "+91 9876543213",
         },
         {
-          name: "Sreejith",
+          name: "lect4",
           phone: "+91 9876543214",
         },
       ],
@@ -384,7 +384,7 @@ export const events = [
 
 export const testimonials = [
   {
-    name: "Jaydeep",
+    name: "Sreedev b S",
     department: "Computer Engineering",
     batch: 2026,
     content: "MPTC gave me the technical foundation that helped me land my dream job at Experion Technologies. The faculty are incredibly supportive.",
@@ -507,7 +507,7 @@ export const pageContents: Record<string, PageContent> = {
     title: "Eligibility Criteria",
     content: [
       "Candidates must have passed SSLC/Equivalent examination from a recognized board.",
-      "For LED admissions,the candidates must have passed PLUS TWO Science/Computer/Equivalent or 2 year ITI ",
+      "For LET admissions,the candidates must have passed PLUS TWO Science/Computer/Equivalent or 2 year ITI ",
       "Age limit and other criteria as prescribed by DTE Kerala for polytechnic admissions.",
     ],
     bullets: [
@@ -573,15 +573,15 @@ export const pageContents: Record<string, PageContent> = {
     bullets: [
       "Odd Semester: June – November",
       "Even Semester: December – March",
-      "Industrial Training: Final year students",
-      "Board Examinations: As per DTE schedule",
+      "Free Industrial Training in IOC: Second year students",
+      "Board Examinations: As per SBTE schedule",
     ],
   },
   "/academics/examination": {
     title: "Examination",
     content: [
-      "Internal assessments and end-semester examinations are conducted as per DTE Kerala guidelines.",
-      "Students must maintain minimum attendance and internal marks to appear for board examinations.",
+      "Internal assessments and end-semester examinations are conducted as per SBTE Kerala guidelines.",
+      "Students must maintain minimum 75% attendance to appear for board examinations.",
     ],
   },
   "/academics/timetable": {
@@ -607,7 +607,7 @@ export const pageContents: Record<string, PageContent> = {
   "/placement/recruiters": {
     title: "Our Recruiters",
     content: [
-      "Leading companies from IT, electronics,manufacturing,Automobile, power and public sector regularly recruit from MPTC campus.",
+      "Leading companies from IT, electronics,manufacturing,automobile, power and public sector regularly recruit from MPTC campus.",
     ],
   },
   "/placement/success-stories": {
