@@ -89,16 +89,16 @@ export default function PopupNotice() {
   onClick={() => setShow(false)}
   className="
       absolute
-      top-4
-      right-4
+      top-0
+      right-0
       z-[999]
-      bg-white-200
+      bg-white-50
       hover:bg-red-400
-      text-white
-      w-12
-      h-12
+      text-black
+      w-8
+      h-8
       rounded-full
-      text-3xl
+      text-1xl
       font-bold
       shadow-xl
       transition
