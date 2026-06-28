@@ -2,6 +2,7 @@
 import NewsTicker from "@/components/NewsTicker";
 import Link from "next/link";
 import Image from "next/image";
+import PopupNotice from "@/components/PopupNotice";
 import { useState, useEffect } from "react";
 import {
   ArrowRight,
@@ -47,7 +48,7 @@ export default function HomePage() {
     <>
       <Hero />
       <NewsTicker />
-     
+      <PopupNotice />
       {/* Stats */}
       <section className="bg-primary-500 py-10">
         <div className="max-w-7xl mx-auto px-4">

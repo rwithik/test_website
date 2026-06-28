@@ -147,7 +147,7 @@ export const departments: Department[] = [
           phone: "+91 9876543214",
         },
       ],
-      
+      established: "2021",
   },
   {
     slug: "cst",
@@ -158,28 +158,28 @@ export const departments: Department[] = [
     image: "/images/cstimg.jpg",
     description:
       "Covers hardware, databases, web technologies, and emerging IT skills for modern tech careers.",
-      hod: "Manoj G",
+      hod: "Muhammad Nijam B",
       hodPhone: "+91 9961481828",
 
       faculty: [
         {
-          name: "Jayalekshmi V",
+          name: "Nisha .O",
           phone: "+91 9876543211",
         },
         {
-          name: "Femina H",
+          name: "Jinumol",
           phone: "+91 9876543212",
         },
         {
-          name: "Vishnu Babu",
+          name: "Rejeena",
           phone: "+91 9876543213",
         },
         {
-          name: "Sreejith",
+          name: "Athira",
           phone: "+91 9876543214",
         },
       ],
-    established: "2005",
+    established: "1997",
   },
   {
     slug: "ece",
@@ -190,26 +190,23 @@ export const departments: Department[] = [
     image: "/images/ecimg.jpg",
     description:
       "Training in communication systems, embedded electronics, IoT, and signal processing with advanced lab facilities.",
-      hod: "Manoj G",
+      hod: "Lunamma Joseph",
       hodPhone: "+91 9961481828",
 
       faculty: [
         {
-          name: "Jayalekshmi V",
+          name: "Archana",
           phone: "+91 9876543211",
         },
         {
-          name: "Femina H",
+          name: "Surya R",
           phone: "+91 9876543212",
         },
         {
-          name: "Vishnu Babu",
+          name: "Grace",
           phone: "+91 9876543213",
         },
-        {
-          name: "Sreejith",
-          phone: "+91 9876543214",
-        },
+       
       ],
     established: "1997",
   },
@@ -222,26 +219,19 @@ export const departments: Department[] = [
     image: "/images/elimg.jpg",
     description:
       "Specialized program in electronic circuits, PCB design, instrumentation, and industrial automation systems.",
-      hod: "Manoj G",
+      hod: "Rajesh",
       hodPhone: "+91 9961481828",
 
       faculty: [
         {
-          name: "Jayalekshmi V",
+          name: "Sobha V",
           phone: "+91 9876543211",
         },
         {
-          name: "Femina H",
+          name: "Shiji",
           phone: "+91 9876543212",
         },
-        {
-          name: "Vishnu Babu",
-          phone: "+91 9876543213",
-        },
-        {
-          name: "Sreejith",
-          phone: "+91 9876543214",
-        },
+      
       ],
     established: "1997",
   },
@@ -254,26 +244,16 @@ export const departments: Department[] = [
     image: "/images/eeeimg.jpg",
     description:
       "Comprehensive training in power systems, electrical machines, control systems, and renewable energy technologies.",
-      hod: "Manoj G",
+      hod: "Mahija M",
       hodPhone: "+91 9961481828",
 
       faculty: [
         {
-          name: "Jayalekshmi V",
+          name: "Sincy",
           phone: "+91 9876543211",
         },
-        {
-          name: "Femina H",
-          phone: "+91 9876543212",
-        },
-        {
-          name: "Vishnu Babu",
-          phone: "+91 9876543213",
-        },
-        {
-          name: "Sreejith",
-          phone: "+91 9876543214",
-        },
+        
+       
       ],
     established: "2021",
   },
@@ -286,7 +266,7 @@ export const departments: Department[] = [
     image: "/images/meimg.jpg",
     description:
       "CAD/CAM, manufacturing processes, thermal engineering, and workshop practice for mechanical industry readiness.",
-      hod: "Manoj G",
+      hod: "Sundaresan",
       hodPhone: "+91 9961481828",
 
       faculty: [
@@ -447,7 +427,7 @@ export const galleryImages = [
   { src: "/images/badminton.jpg", title: "Badminton State Runner up", category: "sports" },
   { src: "/images/butterfly.jpg", title: "Onam celebrations", category: "events" },
   { src: "/images/chenda.jpg", title: "Student's performance", category: "campus" },
-  { src: "/images/dance.jpg", title: "Student's performance", category: "campus" },
+  { src: "/images/dance.jpg", title: "Student's celebrations", category: "campus" },
   { src: "/images/IOCC1.jpg", title: "IOC Inauguration", category: "IOC" },
   { src: "/images/NSS1.jpg", title: "Student's NSS", category: "NSS" },
   { src: "/images/Workshop1.jpg", title: "Technical Workshop", category: "Technical" },
