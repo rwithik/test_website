@@ -432,6 +432,9 @@ export const galleryImages = [
   { src: "/images/NSS1.jpg", title: "Student's NSS", category: "NSS" },
   { src: "/images/Workshop1.jpg", title: "Technical Workshop", category: "Technical" },
   { src: "/images/staffceleb.jpg", title: "Xmas celebrations", category: "events" },
+  { src: "/images/iocimg1.jpg", title: "IOC EWYL News", category: "IOC" },
+  { src: "/images/iocimg2.jpg", title: "IOC Placements ", category: "IOC" },
+  { src: "/images/posterimg.jpg", title: "Placements Poster 2026 ", category: "campus" },
 ]; 
 export const categoryColors: Record<string, string> = {
   admission: "bg-green-100 text-green-700",
