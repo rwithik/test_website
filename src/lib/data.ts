@@ -150,9 +150,9 @@ export const departments: Department[] = [
       established: "2021",
   },
   {
-    slug: "cst",
+    slug: "cg",
     name: "Computer Science & Technology",
-    short: "CST",
+    short: "CG",
     icon: Cpu,
     color: "from-cyan-600 to-cyan-800",
     image: "/images/cstimg.jpg",
@@ -236,9 +236,9 @@ export const departments: Department[] = [
     established: "1997",
   },
   {
-    slug: "eee",
+    slug: "ee",
     name: "Electrical & Electronics Engineering",
-    short: "EEE",
+    short: "EE",
     icon: Zap,
     color: "from-amber-600 to-amber-800",
     image: "/images/eeeimg.jpg",
@@ -488,7 +488,7 @@ export const pageContents: Record<string, PageContent> = {
     bullets: [
       "Principal— Chairman",
       "Head of the Departments — Members",
-      "Office Superintentend — Member",
+      "Office Superintendent — Member",
       "Representatives from Industry and Alumni",
     ],
   },
@@ -541,19 +541,19 @@ export const pageContents: Record<string, PageContent> = {
       "Scholarships and fee concessions are available for eligible students as per government guidelines.",
     ],
     bullets: [
-      "Tuition fee as per DTE Kerala notification",
+      "Tuition fee at the time of admission:₹ 20175. Each semester :₹ 12705",
       "Examination fee as per board norms",
-      "SC/ST/OEC fee concessions available",
+      "SC/ST/OEC/OBH fee concessions available",
       "Merit and need-based scholarships",
     ],
   },
   "/admissions/application-process": {
     title: "Application Process",
     content: [
-      "Admissions to MPTC Karunagappally are through the centralized POLYCAP portal managed by DTE Kerala.",
+      "Admissions to MPTC Karunagappally are through the centralized polyadmission.org portal managed by DTE Kerala.",
     ],
     bullets: [
-      "Register on POLYCAP portal (polycap.kerala.gov.in)",
+      "Register on www.polyadmission.org portal ",
       "Fill application with preferred course choices",
       "Submit required documents online",
       "Attend counseling as per allotment schedule",

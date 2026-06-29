@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Phone, Mail, MapPin, Share2 } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
+import { FaInstagram, FaFacebookF } from "react-icons/fa";
 import { navigation, departments } from "@/lib/data";
 import { siteConfig } from "@/lib/utils";
 
@@ -17,25 +18,32 @@ export default function Footer() {
               Empowering future engineers since {siteConfig.established}.
             </p>
             <div className="flex gap-3">
-              <a
-                href={siteConfig.instagram}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-gold-400 hover:text-primary-950 transition-all text-xs font-bold"
-                aria-label="Instagram"
-              >
-                IG
-              </a>
-              <a
-                href={siteConfig.facebook}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-gold-400 hover:text-primary-950 transition-all"
-                aria-label="Facebook"
-              >
-                <Share2 size={18} />
-              </a>
-            </div>
+
+{/* Instagram */}
+
+<a
+  href="https://www.instagram.com/mptckarunagappally"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-pink-600 hover:text-white transition-all"
+  aria-label="Instagram"
+>
+  <FaInstagram size={20} />
+</a>
+
+{/* Facebook */}
+
+<a
+  href="https://www.facebook.com/YOUR_FACEBOOK_PAGE"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all"
+  aria-label="Facebook"
+>
+  <FaFacebookF size={20} />
+</a>
+
+</div>
           </div>
 
           <div>
@@ -88,7 +96,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 mt-12 pt-8 text-center text-primary-300 text-sm">
           <p>&copy; {new Date().getFullYear()} Model Polytechnic College Karunagappally. All rights reserved.</p>
-          <p className="mt-1 text-xs">IHRD | DTE Kerala Affiliated | AICTE Approved</p>
+          <p className="mt-1 text-xs">IHRD | SBTE Kerala Affiliated | AICTE Approved</p>
         </div>
       </div>
     </footer>

@@ -26,9 +26,9 @@ export default function AdmissionsPage() {
     rel="noopener noreferrer"
     className="text-blue-600 hover:underline"
   >
-    POLYCAP
+    polyadmission.org
   </a>{" "}
-  portal managed by DTE Kerala.
+  portal managed by SBTE Kerala.
 </p>
             </p>
             <div className="grid sm:grid-cols-2 gap-4">

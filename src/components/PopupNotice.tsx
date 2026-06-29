@@ -95,8 +95,8 @@ export default function PopupNotice() {
       bg-white-50
       hover:bg-red-400
       text-black
-      w-8
-      h-8
+      w-10
+      h-10
       rounded-full
       text-1xl
       font-bold
@@ -104,7 +104,7 @@ export default function PopupNotice() {
       transition
   "
 >
-    ×
+    ×close
 </button>
 
 <div className="p-2">
