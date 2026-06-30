@@ -95,8 +95,8 @@ export default function PopupNotice() {
       bg-white-50
       hover:bg-red-400
       text-black
-      w-8
-      h-8
+      w-12
+      h-12
       rounded-full
       text-1xl
       font-bold
